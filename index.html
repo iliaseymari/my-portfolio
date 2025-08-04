@@ -1,6 +1,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -133,6 +134,7 @@
             cursor: pointer;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
             animation: pulse-slow 2s infinite;
+            transform: translateY(-50px) translateX(7px);
         }
 
         .ai-container {
@@ -343,6 +345,7 @@
                 <a href="#about" class="nav-link">About</a>
                 <a href="#skills" class="nav-link">Skills</a>
                 <a href="#projects" class="nav-link">Projects</a>
+<a href="#certificates" class="nav-link">Certificates</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
             
@@ -358,6 +361,7 @@
                 <a href="#about" class="mobile-nav-link py-2">About</a>
                 <a href="#skills" class="mobile-nav-link py-2">Skills</a>
                 <a href="#projects" class="mobile-nav-link py-2">Projects</a>
+<a href="#certificates" class="mobile-nav-link py-2">Certificates</a>
                 <a href="#contact" class="mobile-nav-link py-2">Contact</a>
             </div>
         </div>
@@ -416,7 +420,7 @@
                             </div>
                         </div>
                         <div class="absolute -bottom-5 -right-5 w-20 h-20 rounded-full bg-secondary flex items-center justify-center text-white text-xl font-bold animate-spin-slow">
-                            <span>15</span>
+                            <span>14</span>
                         </div>
                     </div>
                 </div>
@@ -768,6 +772,266 @@
         </div>
     </section>
 
+
+
+
+
+<section id="certificates" class="py-20 bg-white relative" style="opacity: 0; transform: translateY(30px); animation: fadeInUp 0.8s ease forwards;">
+    <style>
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+    
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold mb-16 text-center">
+            <span style="background: linear-gradient(135deg, #6366f1, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">My Certificates</span>
+        </h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Certificate 1 -->
+            <div class="bg-white rounded-xl overflow-hidden shadow-lg border border-gray-200" 
+                 style="transition: all 0.3s ease; opacity: 0; transform: translateY(30px); animation: fadeInUp 0.6s ease forwards 0s;"
+                 onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 40px rgba(0, 0, 0, 0.1)'"
+                 onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px -1px rgba(0, 0, 0, 0.1)'">
+                
+                <a href="https://github.com/iliaseymari/my-portfolio/blob/main/certificate%20file/cs50p.png" target="_blank" class="block h-48 bg-gray-100 cursor-pointer relative overflow-hidden"
+                   style="transition: all 0.3s ease; text-decoration: none;">
+                    <img src="https://github.com/iliaseymari/my-portfolio/blob/main/certificate%20file/cs50p.png?raw=true" alt="CS50P Certificate" class="w-full h-full object-cover"
+                         style="transition: transform 0.3s ease;"
+                         onmouseover="this.style.transform='scale(1.05)'"
+                         onmouseout="this.style.transform='scale(1)'"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    
+                    <!-- Fallback placeholder -->
+                    <div class="w-full h-full flex items-center justify-center" style="background: linear-gradient(135deg, #dbeafe, #e0e7ff); display: none;">
+                        <div class="text-center">
+                            <i class="fas fa-certificate text-4xl text-indigo-500 mb-2"></i>
+                            <p class="text-sm text-gray-600">CS50P Certificate</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">CS50P - Python Programming</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Harvard's Introduction to Programming with Python course certificate
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-3 py-1 rounded-full text-sm font-medium cursor-pointer"
+                              style="background: rgba(99, 102, 241, 0.1); color: #6366f1; transition: all 0.3s ease;"
+                              onmouseover="this.style.background='#6366f1'; this.style.color='white'; this.style.transform='translateY(-2px)'"
+                              onmouseout="this.style.background='rgba(99, 102, 241, 0.1)'; this.style.color='#6366f1'; this.style.transform='translateY(0)'">Python</span>
+                        <span class="px-3 py-1 rounded-full text-sm font-medium cursor-pointer"
+                              style="background: rgba(99, 102, 241, 0.1); color: #6366f1; transition: all 0.3s ease;"
+                              onmouseover="this.style.background='#6366f1'; this.style.color='white'; this.style.transform='translateY(-2px)'"
+                              onmouseout="this.style.background='rgba(99, 102, 241, 0.1)'; this.style.color='#6366f1'; this.style.transform='translateY(0)'">Harvard</span>
+                    </div>
+                    <a href="https://github.com/iliaseymari/my-portfolio/blob/main/certificate%20file/cs50p.png" target="_blank" class="block w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-lg font-medium text-center"
+                       style="transition: all 0.3s ease; text-decoration: none;"
+                       onmousedown="this.style.transform='scale(0.98)'"
+                       onmouseup="this.style.transform='scale(1)'">
+                        <i class="fas fa-file-pdf mr-2"></i>View Certificate
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Certificate 2 -->
+            <div class="bg-white rounded-xl overflow-hidden shadow-lg border border-gray-200" 
+                 style="transition: all 0.3s ease; opacity: 0; transform: translateY(30px); animation: fadeInUp 0.6s ease forwards 0.2s;"
+                 onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 40px rgba(0, 0, 0, 0.1)'"
+                 onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px -1px rgba(0, 0, 0, 0.1)'">
+                
+                <a href="YOUR_CS50AI_PDF_LINK_HERE" target="_blank" class="block h-48 bg-gray-100 cursor-pointer relative overflow-hidden"
+                   style="transition: all 0.3s ease; text-decoration: none;">
+                    <img src="https://github.com/iliaseymari/my-portfolio/blob/main/certificate%20file/cs50ai.png?raw=true" alt="CS50AI Certificate" class="w-full h-full object-cover"
+                         style="transition: transform 0.3s ease;"
+                         onmouseover="this.style.transform='scale(1.05)'"
+                         onmouseout="this.style.transform='scale(1)'"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    
+                    <!-- Fallback placeholder -->
+                    <div class="w-full h-full flex items-center justify-center" style="background: linear-gradient(135deg, #ecfdf5, #d1fae5); display: none;">
+                        <div class="text-center">
+                            <i class="fas fa-certificate text-4xl text-emerald-500 mb-2"></i>
+                            <p class="text-sm text-gray-600">CS50AI Certificate</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">CS50AI - Artificial Intelligence</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Harvard's Introduction to Artificial Intelligence with Python
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-3 py-1 rounded-full text-sm font-medium cursor-pointer"
+                              style="background: rgba(99, 102, 241, 0.1); color: #6366f1; transition: all 0.3s ease;"
+                              onmouseover="this.style.background='#6366f1'; this.style.color='white'; this.style.transform='translateY(-2px)'"
+                              onmouseout="this.style.background='rgba(99, 102, 241, 0.1)'; this.style.color='#6366f1'; this.style.transform='translateY(0)'">AI</span>
+                        <span class="px-3 py-1 rounded-full text-sm font-medium cursor-pointer"
+                              style="background: rgba(99, 102, 241, 0.1); color: #6366f1; transition: all 0.3s ease;"
+                              onmouseover="this.style.background='#6366f1'; this.style.color='white'; this.style.transform='translateY(-2px)'"
+                              onmouseout="this.style.background='rgba(99, 102, 241, 0.1)'; this.style.color='#6366f1'; this.style.transform='translateY(0)'">Harvard</span>
+                    </div>
+                    <a href="https://github.com/iliaseymari/my-portfolio/blob/main/certificate%20file/cs50ai.png" target="_blank" class="block w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-lg font-medium text-center"
+                       style="transition: all 0.3s ease; text-decoration: none;"
+                       onmousedown="this.style.transform='scale(0.98)'"
+                       onmouseup="this.style.transform='scale(1)'">
+                        <i class="fas fa-file-pdf mr-2"></i>View Certificate
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Certificate 3 -->
+            <div class="bg-white rounded-xl overflow-hidden shadow-lg border border-gray-200" 
+                 style="transition: all 0.3s ease; opacity: 0; transform: translateY(30px); animation: fadeInUp 0.6s ease forwards 0.4s;"
+                 onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 40px rgba(0, 0, 0, 0.1)'"
+                 onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px -1px rgba(0, 0, 0, 0.1)'">
+                
+                <a href="YOUR_CODDY_PYTHON_PDF_LINK_HERE" target="_blank" class="block h-48 bg-gray-100 cursor-pointer relative overflow-hidden"
+                   style="transition: all 0.3s ease; text-decoration: none;">
+                    <img src="https://github.com/iliaseymari/my-portfolio/blob/main/certificate%20file/coddy%20python.png?raw=true" alt="Coddy Python Certificate" class="w-full h-full object-cover"
+                         style="transition: transform 0.3s ease;"
+                         onmouseover="this.style.transform='scale(1.05)'"
+                         onmouseout="this.style.transform='scale(1)'"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    
+                    <!-- Fallback placeholder -->
+                    <div class="w-full h-full flex items-center justify-center" style="background: linear-gradient(135deg, #faf5ff, #e9d5ff); display: none;">
+                        <div class="text-center">
+                            <i class="fas fa-certificate text-4xl text-violet-500 mb-2"></i>
+                            <p class="text-sm text-gray-600">Coddy Python Certificate</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">Coddy Python Course</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Complete Python programming course from Coddy platform
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-3 py-1 rounded-full text-sm font-medium cursor-pointer"
+                              style="background: rgba(99, 102, 241, 0.1); color: #6366f1; transition: all 0.3s ease;"
+                              onmouseover="this.style.background='#6366f1'; this.style.color='white'; this.style.transform='translateY(-2px)'"
+                              onmouseout="this.style.background='rgba(99, 102, 241, 0.1)'; this.style.color='#6366f1'; this.style.transform='translateY(0)'">Python</span>
+                        <span class="px-3 py-1 rounded-full text-sm font-medium cursor-pointer"
+                              style="background: rgba(99, 102, 241, 0.1); color: #6366f1; transition: all 0.3s ease;"
+                              onmouseover="this.style.background='#6366f1'; this.style.color='white'; this.style.transform='translateY(-2px)'"
+                              onmouseout="this.style.background='rgba(99, 102, 241, 0.1)'; this.style.color='#6366f1'; this.style.transform='translateY(0)'">Coddy</span>
+                    </div>
+                    <a href="https://github.com/iliaseymari/my-portfolio/blob/main/certificate%20file/coddy%20python.png" target="_blank" class="block w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-lg font-medium text-center"
+                       style="transition: all 0.3s ease; text-decoration: none;"
+                       onmousedown="this.style.transform='scale(0.98)'"
+                       onmouseup="this.style.transform='scale(1)'">
+                        <i class="fas fa-file-pdf mr-2"></i>View Certificate
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Certificate 4 -->
+            <div class="bg-white rounded-xl overflow-hidden shadow-lg border border-gray-200" 
+                 style="transition: all 0.3s ease; opacity: 0; transform: translateY(30px); animation: fadeInUp 0.6s ease forwards 0.6s;"
+                 onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 40px rgba(0, 0, 0, 0.1)'"
+                 onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px -1px rgba(0, 0, 0, 0.1)'">
+                
+                <a href="YOUR_CODDY_HTML_PDF_LINK_HERE" target="_blank" class="block h-48 bg-gray-100 cursor-pointer relative overflow-hidden"
+                   style="transition: all 0.3s ease; text-decoration: none;">
+                    <img src="https://github.com/iliaseymari/my-portfolio/blob/main/certificate%20file/coddy%20html.png?raw=true" alt="Coddy HTML Certificate" class="w-full h-full object-cover"
+                         style="transition: transform 0.3s ease;"
+                         onmouseover="this.style.transform='scale(1.05)'"
+                         onmouseout="this.style.transform='scale(1)'"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    
+                    <!-- Fallback placeholder -->
+                    <div class="w-full h-full flex items-center justify-center" style="background: linear-gradient(135deg, #fffbeb, #fef3c7); display: none;">
+                        <div class="text-center">
+                            <i class="fas fa-certificate text-4xl text-amber-500 mb-2"></i>
+                            <p class="text-sm text-gray-600">Coddy HTML Certificate</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">Coddy HTML Course</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        HTML and web development fundamentals from Coddy
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-3 py-1 rounded-full text-sm font-medium cursor-pointer"
+                              style="background: rgba(99, 102, 241, 0.1); color: #6366f1; transition: all 0.3s ease;"
+                              onmouseover="this.style.background='#6366f1'; this.style.color='white'; this.style.transform='translateY(-2px)'"
+                              onmouseout="this.style.background='rgba(99, 102, 241, 0.1)'; this.style.color='#6366f1'; this.style.transform='translateY(0)'">HTML</span>
+                        <span class="px-3 py-1 rounded-full text-sm font-medium cursor-pointer"
+                              style="background: rgba(99, 102, 241, 0.1); color: #6366f1; transition: all 0.3s ease;"
+                              onmouseover="this.style.background='#6366f1'; this.style.color='white'; this.style.transform='translateY(-2px)'"
+                              onmouseout="this.style.background='rgba(99, 102, 241, 0.1)'; this.style.color='#6366f1'; this.style.transform='translateY(0)'">Coddy</span>
+                    </div>
+                    <a href="https://github.com/iliaseymari/my-portfolio/blob/main/certificate%20file/coddy%20html.png" target="_blank" class="block w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-lg font-medium text-center"
+                       style="transition: all 0.3s ease; text-decoration: none;"
+                       onmousedown="this.style.transform='scale(0.98)'"
+                       onmouseup="this.style.transform='scale(1)'">
+                        <i class="fas fa-file-pdf mr-2"></i>View Certificate
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Certificate 5 -->
+            <div class="bg-white rounded-xl overflow-hidden shadow-lg border border-gray-200" 
+                 style="transition: all 0.3s ease; opacity: 0; transform: translateY(30px); animation: fadeInUp 0.6s ease forwards 0.8s;"
+                 onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 40px rgba(0, 0, 0, 0.1)'"
+                 onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px -1px rgba(0, 0, 0, 0.1)'">
+                
+                <a href="YOUR_AIOLEARN_PDF_LINK_HERE" target="_blank" class="block h-48 bg-gray-100 cursor-pointer relative overflow-hidden"
+                   style="transition: all 0.3s ease; text-decoration: none;">
+                    <img src="https://github.com/iliaseymari/my-portfolio/blob/main/certificate%20file/aiolearn.png?raw=true" alt="AIOLearn Certificate" class="w-full h-full object-cover"
+                         style="transition: transform 0.3s ease;"
+                         onmouseover="this.style.transform='scale(1.05)'"
+                         onmouseout="this.style.transform='scale(1)'"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    
+                    <!-- Fallback placeholder -->
+                    <div class="w-full h-full flex items-center justify-center" style="background: linear-gradient(135deg, #fef2f2, #fecaca); display: none;">
+                        <div class="text-center">
+                            <i class="fas fa-certificate text-4xl text-rose-500 mb-2"></i>
+                            <p class="text-sm text-gray-600">AIOLearn Certificate</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">AIOLearn Bootcamp</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Comprehensive programming bootcamp from AIOLearn platform
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-3 py-1 rounded-full text-sm font-medium cursor-pointer"
+                              style="background: rgba(99, 102, 241, 0.1); color: #6366f1; transition: all 0.3s ease;"
+                              onmouseover="this.style.background='#6366f1'; this.style.color='white'; this.style.transform='translateY(-2px)'"
+                              onmouseout="this.style.background='rgba(99, 102, 241, 0.1)'; this.style.color='#6366f1'; this.style.transform='translateY(0)'">Bootcamp</span>
+                        <span class="px-3 py-1 rounded-full text-sm font-medium cursor-pointer"
+                              style="background: rgba(99, 102, 241, 0.1); color: #6366f1; transition: all 0.3s ease;"
+                              onmouseover="this.style.background='#6366f1'; this.style.color='white'; this.style.transform='translateY(-2px)'"
+                              onmouseout="this.style.background='rgba(99, 102, 241, 0.1)'; this.style.color='#6366f1'; this.style.transform='translateY(0)'">AIOLearn</span>
+                    </div>
+                    <a href="https://github.com/iliaseymari/my-portfolio/blob/main/certificate%20file/aiolearn.png" target="_blank" class="block w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-lg font-medium text-center"
+                       style="transition: all 0.3s ease; text-decoration: none;"
+                       onmousedown="this.style.transform='scale(0.98)'"
+                       onmouseup="this.style.transform='scale(1)'">
+                        <i class="fas fa-file-pdf mr-2"></i>View Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'969c6a07300c6921',t:'MTc1NDI5MzMwNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+
+
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-gray-50 relative section-animate">
         <div class="container mx-auto px-4">
@@ -800,7 +1064,7 @@
                                 </div>
                                 <div>
                                     <h4 class="font-semibold">Website</h4>
-                                    <p class="text-gray-600">www.iliaseymarizade.com</p>
+                                    <p class="text-gray-600">https://my-portfolio-six-liard-78.vercel.app/</p>
                                 </div>
                             </div>
                         </div>
@@ -957,7 +1221,8 @@
                     <div class="ai-action-btn" style="--delay: 1" data-section="about">About Ilia</div>
                     <div class="ai-action-btn" style="--delay: 2" data-section="skills">Skills</div>
                     <div class="ai-action-btn" style="--delay: 3" data-section="projects">Projects</div>
-                    <div class="ai-action-btn" style="--delay: 4" data-section="contact">Contact</div>
+                    <div class="ai-action-btn" style="--delay: 4" data-section="certificates">Certificates</div>
+                    <div class="ai-action-btn" style="--delay: 5" data-section="contact">Contact</div>
                 </div>
             </div>
         </div>
@@ -1149,16 +1414,19 @@
                         
                         switch(section) {
                             case 'about':
-                                message.textContent = "Ilia is a 15-year-old programmer with a passion for technology. He started coding at a young age and has developed skills in various programming languages and frameworks.";
+                                message.textContent = "Ilia is a 15-year-old programmer with a passion for technology. He started coding at 8 year-old and has developed skills in various programming languages and frameworks.";
                                 break;
                             case 'skills':
-                                message.textContent = "Ilia is proficient in Python, HTML/CSS, JavaScript, PHP, C#, and Unity. He also has experience with web scraping, computer vision, and voice processing technologies.";
+                                message.textContent = "Ilia is skilled in programming languages including Python, HTML, CSS, JS, PHP, C#, and is also proficient with popular tools and frameworks including Unity, Git, Windows Command, and various types of artificial intelligence.";
                                 break;
                             case 'projects':
-                                message.textContent = "Ilia has worked on several impressive projects including a voice assistant, facial recognition system, web scraping tools, school websites, and Unity games.";
+                                message.textContent = "Ilia is skilled in projects such as image processing, game development, website design, etc. Some of the projects include face and hand processing via camera, professional websites for restaurants or clothing stores, and strategic games. You can see these and all the projects on this site or my GitHub, the address of which is on this page.";
                                 break;
                             case 'contact':
-                                message.textContent = "You can get in touch with Ilia through the contact form on this website or connect with him on social media platforms.";
+                                message.textContent = "All of my social media pages, including GitHub, email, Instagram, and LinkedIn, are on this site, through which you can contact me. You can also send me a direct message in the contact section of this website, and I will respond as soon as possible.";
+                                break;
+                            case 'certificates':
+                                message.textContent = "Ilia holds several prestigious certifications, including CS50P and CS50AI from Harvard University. He has also earned additional credentials such as Coddy Python, Coddy HTML, and the AI BootCamp by Olearn, among others";
                                 break;
                         }
                         
@@ -1260,6 +1528,24 @@
             }
         });
     </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d7ac7267a937e0',t:'MTc0OTU0NTk3Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d7ac7267a937e0',t:'MTc0OTU0NTk3Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const sections = document.querySelectorAll(".section-animate");
+
+  function onScroll() {
+    sections.forEach((section) => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 100) {
+        section.classList.add("active");
+      }
+    });
+  }
+
+  window.addEventListener("scroll", onScroll);
+  onScroll();
+});
+</script>
+</body>
 
 </html>
